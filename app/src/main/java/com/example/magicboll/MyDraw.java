@@ -15,8 +15,9 @@ public class MyDraw extends View {
     Paint p = new Paint();
 
     protected  void onDraw(Canvas canvas){
-        canvas.drawCircle(100,200,50, p);
-        canvas.drawLine(0,0,300,500, p);
-        canvas.drawRect(30,30,150,100, p);
+        p.setStyle(Paint.Style.STROKE);//Убирает заливку
+        canvas.drawCircle(100,200,50, p);//Круг
+        canvas.drawLine(0,0,300,500, p);//Линия
+        canvas.drawRect(30,30,150,100, p);//Четырехугольник
     }
 }
