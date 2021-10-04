@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Magic Ball</string>
+    <string name="Greeting">Tap me!</string>
+    <string name="No">No</string>
+    <string name="Yes">Yes</string>
+    <string name="LOL">LOL</string>
+</resources>
