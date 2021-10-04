@@ -13,7 +13,10 @@ public class MyDraw extends View {
         super(context);
     }
     Paint p = new Paint();
-    protected  void onDrow(Canvas canvas){
+
+    protected  void onDraw(Canvas canvas){
         canvas.drawCircle(100,200,50, p);
+        canvas.drawLine(0,0,300,500, p);
+        canvas.drawRect(30,30,150,100, p);
     }
 }
